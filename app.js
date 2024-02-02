@@ -1,22 +1,12 @@
-//  const mon = "mon";
-//  const tue = "tue";
-//  const wed = "wed";
-//  const thu = "thu";
-//  const fri = "fri";
-//  const sat = "sat";
-//  const sun = "sun";
+ const age = parseInt(prompt("How old are you?"));
 
- const week = ["mon" ,"tue", "wed", "thu", "fri", "sat", "sun"];
- //array로 묶어줌 -> variable들을 그룹화 시킴, 데이터로 이뤄진 리스트
- //array의 목적은 하나의 variable안에 데이터의 list를 가지는 것
+//  console.log(isNaN(age));
 
- const nonsense = [1, 2, "hello", false, null, true, undefined, "nico"]
+ //isNaN() 에 하나의 인자를 주면 number인지 아닌지 알려줌(true, false)
+ //boolean을 return함 
+ //false -> 숫자임 true ->숫자아님
 
- console.log(week);
-
- //Get Item form Array
- console.log(week[4]);
-
- //Add one more day to the array
- week.push("hyel") //push()는 항목하나를 array안에 추가해줌
- console.log(week);
+ //조건condition -> true or false
+ if(isNaN(age)){
+	alert("Please write a number");
+ };
