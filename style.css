@@ -16,3 +16,7 @@ h1.clicked{
 h1.sfont{
 	font-size: 25px;
 }
+
+.hidden{
+	display: none;
+}
