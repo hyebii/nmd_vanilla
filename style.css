@@ -1,3 +1,18 @@
 body{
 	background: beige;
 }
+
+h1{
+	color: cornflowerblue;
+	transition: color .5s ease-in-out;
+}
+
+/* h1.active{
+	color: tomato;	
+} */
+h1.clicked{
+	color: purple;
+}
+h1.sfont{
+	font-size: 25px;
+}
